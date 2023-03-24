@@ -78,11 +78,11 @@ main{
     background-color: rgb(255, 255, 255);
     max-width: 920px;
     height: 500px;
-    padding: 5px;
+    padding: px;
     
 }
 
-@media (min-width: 400px){
+@media (min-width: 350px){
     main {
      width: 100%;
      height: auto;
@@ -95,50 +95,70 @@ main{
     
     max-width: 100%;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 
 
 .trabalhista{
-    display: inline-block;
-    font-size: calc(1.2em + 1.2vw);
-    text-align: left;
-    margin-left: 0px;
-    
+
+    display: block;
+    margin: auto;
+    font-size: calc(1.4em + 1.4vw);
+      
 }
 
 .fiscal{
-    display: inline-block;
-    font-size: calc(1.6em + 1.6vw);
-    margin-left: 10px;
-    margin-top: -10px;
+    
+    font-size: calc(1.8em + 1.8vw);
+    margin-top: 0px;
+    margin-left: 250px;
 
 }
 
 
 
 .juridica{
-    margin-top: 10px;
-    font-size: calc(1.3em + 1.3vw);
+    
+    margin-top: -20px;
+    margin-right: 120px;
+    font-size: calc(1.2em + 1.2vw);
 }
 
 .pfisica{
-    font-size: calc(1.6em + 1.6vw);
+    font-size: calc(1.7em + 1.7vw);
     margin-left: -160px;
     margin-top: 15px;
     margin-bottom: 0;
 }
-
+.contabil{
+    display: block;
+    margin: auto;
+}
 .contabil{
     font-size: calc(1.4em + 1.4vw);
-    margin-left: -50px;
-    margin-top: -25px;
-    margin-right: -250px;
+    margin-left: 150px;
+    margin-top: 0;
+        
     margin-bottom: 50px;
     padding-bottom: 20px;    
-    
 }
+
+
+.imgsocia{
+    transition: transform 0.3s ease-in-out;   
+}
+
+
+
+.imgsocial:hover {
+    transform: scale(1.2);
+}
+
+.linkedin:hover {
+    transform: scale(1.2);
+  }
+
 
 
 /* SOBRE A EMPRESA___________*/
@@ -154,6 +174,7 @@ main{
 }
 
 .empresa{
+    margin-top: 15px;
     margin-bottom: -11px;
 }
 
@@ -208,10 +229,10 @@ p{
 }
 
 #tsocial{
-    color: rgb(39, 77, 112);
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-decoration: none;
-    font-weight: lighte;
+    font-weight: lighter;
     font-size: 1.2em;
 }
 
