@@ -23,19 +23,45 @@
 
 <main id="maincontatos">
 
-   <div id="email">
+   <div >
 <h3> contato@indexcon.com.br</h3>
-<img src="img/imgcorreo.png" alt="">
+<img id="email" src="img/imgcorreo.png" alt="">
 </div>
 
-<div id="telefone">
+<div>
 <h3> +55 11 5181-5544</h3>
-<img src="img/imgtelefone.png" alt="">
+<img id="telefone" src="img/imgtelefone.png" alt="">
 </div>
 
 <div class="trabalheconosco">
 
 <h3>Trabalhe Conosco</h3>
+
+<form action="enviar_email.php" method="post">
+
+<div  >
+    <label for="nome">Nome:</label>    <br>
+    <input type="text" id="nome" name="nome" required> <br>
+</div>
+
+<br>
+
+<div>
+
+    <label for="email">Email:</label>
+    <br>
+    <input type="email" id="correo" name="email " required> <br>
+</div>
+<br>
+<div>
+    <label for="mensagem">Mensagem:</label>
+    <textarea name="mensagem" id="mensagem" rows="10" style="width: "></textarea>
+</div>
+
+
+<button type="submit"><strong>Enviar</strong></button>
+
+</form>
 
 </div>
 
