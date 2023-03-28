@@ -218,6 +218,10 @@ form{
     border-radius: 10px;
 }
 
+form{
+    margin: 10px;
+}
+
 label{
     float: left;
     margin-bottom: px;
@@ -234,6 +238,7 @@ input{
 
 textarea{
     border-color: solid black 2px;
+    
 }
 
 textarea:focus{
